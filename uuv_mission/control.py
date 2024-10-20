@@ -2,6 +2,11 @@
 
 class Controller:
     def __init__(self, Kp, Kd):
+        """
+        Initialize the controller with the given gains.
+        Kp (float): Proportional gain.
+        Kd (float): Derivative gain.
+        """
         self.Kp = Kp
         self.Kd = Kd
         self.previous_error = 0.0

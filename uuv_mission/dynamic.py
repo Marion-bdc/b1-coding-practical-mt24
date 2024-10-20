@@ -89,7 +89,6 @@ class Mission:
                 cave_depth.append(float(row[2]))
 
         return cls(np.array(reference), np.array(cave_height), np.array(cave_depth))
-        pass
 
 
 class ClosedLoop:
